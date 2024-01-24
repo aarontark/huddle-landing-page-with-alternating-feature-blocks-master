@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     flex-wrap: wrap;
     overflow: visible;
@@ -119,9 +119,34 @@ section {
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 4rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .landing-image {
     width: 100%;
 }
 
+.info-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-body {
+    width: 70%;
+}
+
+.info-section img {
+    width: 100%;
+}
+
+.info-title {
+    font-size: 1.25rem;
+    padding: 3rem 0 .5rem 0;
+    color: var(--very-dark-cyan);
+}
+
+.info-para {
+    font-size: .8rem;
+    color: var(--grayish-blue);
+}
