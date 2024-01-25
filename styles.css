@@ -31,6 +31,11 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
+li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
 .content-container {
     display: flex;
     flex-direction: column;
@@ -132,6 +137,10 @@ section {
     text-align: center;
 }
 
+.users {
+    padding-bottom: 2rem;
+}
+
 .info-body {
     width: 70%;
 }
@@ -149,4 +158,121 @@ section {
 .info-para {
     font-size: .8rem;
     color: var(--grayish-blue);
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3.75rem;
+    z-index: 1;
+    border-radius: .75rem;
+    margin: 0 .75rem;
+    background: #fff;
+    padding: 2.5rem 0;
+}
+
+.signup-title {
+    font-size: 1.12rem;
+    margin-bottom: 1rem;
+    color: var(--very-dark-cyan)
+}
+
+.signup-btn {
+    color: #fff;
+    background-color: var(--pink);
+    border: none;
+    padding: .75rem 3rem;
+    border-radius: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .6rem;
+    cursor: pointer;
+}
+
+.footer-container {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-pale-cyan);
+    padding-top: 8rem;
+}
+
+.footer-container img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(345deg) brightness(100%) contrast(104%);
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container > * {
+    padding: .5rem 0;
+}
+
+.footer-logo {
+    width: 11rem;
+    padding-bottom: 1rem;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.email {
+    padding-bottom: 3rem;
+}
+
+.img-container {
+    width: 10%;
+    padding-right: 2.6rem;
+    display: flex;
+    align-items: start;
+}
+
+.img-container img {
+    margin-top: .4rem;
+}
+
+.contact-para {
+    display: flex;
+    width: 90%;
+    align-items: start;
+}
+
+.contact-para p {
+    font-size: 1.025rem;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.list-container {
+    font-size: 1.25rem;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.socials {
+    width: 2.25rem;
+    border: 1px solid white;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.twitter {
+    margin: 0 .75rem;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: .625rem;
 }
