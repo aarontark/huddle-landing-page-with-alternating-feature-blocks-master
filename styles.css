@@ -276,3 +276,61 @@ section {
     margin-top: 1.5rem;
     font-size: .75rem;
 }
+
+@media (min-width: 1280px) {
+    section {
+        padding: 2.5rem 3rem;
+    }
+
+    .landing-section {
+        background-image: url(./images/bg-hero-desktop.svg);
+    }
+
+    .nav {
+        margin-bottom: 4rem;
+    }
+
+    .nav-image {
+        width: 10rem;
+    }
+
+    .nav-btn {
+        color: var(--very-dark-cyan);
+        padding: .75rem 4rem;
+        border-radius: 2rem;
+        box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.12);
+    }
+
+    .landing-container {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .landing-info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+    }
+
+    .landing-title {
+        font-size: 2.45rem;
+        text-align: left;
+        padding: 0;
+        padding-top: 3rem;
+    }
+
+    .landing-para {
+        padding: 1rem 4rem 1rem 0;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .landing-btn {
+        padding: 1rem 4rem;
+    }
+
+    .landing-image {
+        width: 55%;
+    }
+}
